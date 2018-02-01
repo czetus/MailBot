@@ -64,8 +64,6 @@ public class Editor extends JFrame{
 		this.editor = editor;
 	}
 
-
-
 	private void openFile( String path ){
         if( path != null ){
             File file = new File( path );
@@ -89,7 +87,6 @@ public class Editor extends JFrame{
     }
     
     private class LoadAction extends AbstractAction{
-        
         /**
          * Creates the action and set's it's name to 'Load'
          */
